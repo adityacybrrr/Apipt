@@ -1,4 +1,4 @@
-# Day 4 — Practical Burp Suite Core Mastery
+# Day 9 — Practical Burp Suite Core Mastery
 
 ## 1. Proxy & History Audit
 - *Actions:* Monitored live API traffic flowing through the Burp Proxy.
