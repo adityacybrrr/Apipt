@@ -1,4 +1,5 @@
  Day 2 — Core Concepts of API Request Tampering
+---
 
 1. Client Metadata Tampering
 - *Learning:* We learned to manually control the User-Agent string.
