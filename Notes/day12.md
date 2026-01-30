@@ -18,7 +18,7 @@
 
 ---
 
-## 4. Advanced Testing Methodology & Verification
+## 4. Advanced Testing Methodology and Verification
 - *Actions:* Formalized a testing protocol involving controlled request manipulation (Token Removal, Replacement, and Reuse) to analyze server behavior.
 - *Actions:* Defined the "Pentester Mindset": OAuth is a delivery mechanism, not an authorization policy; APIs must validate scope, role, and ownership.
 - *Outcome:* Created a roadmap for identifying high-value logic flaws without resorting to high-velocity fuzzing or brute-force attacks.
