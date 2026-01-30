@@ -1,4 +1,4 @@
-# Day 5 — API Authentication & Broken Auth Analysis
+# Day 05 — API Authentication & Broken Auth Analysis
 
 ## 1. The Authentication Mental Model
 - *Actions:* Evaluated multiple authentication schemes including API keys, Bearer tokens (JWT), and Basic Auth.
