@@ -1,1 +1,1 @@
-Day0-sshsetupcomplete.
+Day0--sshsetupcomplete.
