@@ -1,4 +1,4 @@
-# Day 3 — Mixed Style (Strategic + Practical)
+# Day 03 — Mixed Style (Strategic + Practical)
 
 ## 1. POST as a State-Changer
 - *Actions:* Treated POST as the HTTP verb used to send data that modifies backend state.
