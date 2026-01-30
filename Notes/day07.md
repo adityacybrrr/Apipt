@@ -1,4 +1,4 @@
-# Day 7 — API Security: Playing with JWT Logic & Claim Abuse
+# Day 07 — API Security: Playing with JWT Logic & Claim Abuse
 
 ## 1. Checking if the Server is "Too Trusting"
 - *Actions:* Examined how the backend uses userId and role claims to control access to data and features.
