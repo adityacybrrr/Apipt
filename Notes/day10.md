@@ -17,7 +17,7 @@
 ## 3. Query Depth & DoS Probing
 - *Actions:* Built deeply nested queries to test API depth-limit enforcement.
 - *Actions:* Monitored backend latency as query complexity increased.
-- *Outcome:* Identified critical lack of query complexity validation, enabling potential Resource Exhaustion attacks.
+- *Outcome:* Identified critical lack of query complexity validation and enabling potential Resource Exhaustion attacks.
 
 ---
 
