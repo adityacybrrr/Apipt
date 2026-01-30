@@ -1,4 +1,4 @@
-# Day 8 — GraphQL Basics: How to Map the Whole API
+# Day 08 — GraphQL Basics: How to Map the Whole API
 
 ## 1. Hunting for the "One Endpoint"
 - *Actions:* Searched for the single /graphql endpoint that GraphQL apps typically use instead of multiple REST paths.
