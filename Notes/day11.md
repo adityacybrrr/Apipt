@@ -1,12 +1,12 @@
 # Day 11 — API Security: Conceptualizing the OAuth 2.0 Framework
 
-## 1. Framework Architecture & Roles
+## 1. Framework Architecture and Roles
 - *Actions:* Systematically mapped the interaction between the Client, Authorization Server, and the Resource Server.
 - *Outcome:* Successfully identified the "Resource Server" (the API) as the most critical point of failure in real-world authorization testing.
 
 ---
 
-## 2. Grant Type Analysis & Use-Case Mapping
+## 2. Grant Type Analysis and Use-Case Mapping
 - *Actions:* Analyzed the Authorization Code and Client Credentials flows to determine their appropriate security contexts.
 - *Outcome:* Developed the ability to identify "Misconfigured Flows" where inappropriate grant types are utilized for sensitive API access.
 
