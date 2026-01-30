@@ -1,4 +1,4 @@
-# Day 4 — API Pentesting Workflow with Burp Suite
+# Day 04 — API Pentesting Workflow with Burp Suite
 
 ## Phase 1: Traffic Capture & Mapping
 - *Actions:* Routed all Postman traffic through the Burp Suite proxy.
