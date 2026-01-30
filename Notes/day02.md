@@ -1,4 +1,4 @@
- Day 2 — Core Concepts of API Request Tampering
+ Day 02 — Core Concepts of API Request Tampering
 ---
 
 1. Client Metadata Tampering
