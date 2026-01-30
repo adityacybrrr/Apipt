@@ -7,7 +7,7 @@
 
 ---
 
-## 2. Establishing the Baseline: Capture & Identification
+## 2. Establishing the Baseline: Capture and Identification
 - *Actions:* Utilized Burp Proxy to capture authenticated Authorization: Bearer <access_token> requests.
 - *Actions:* Decoded JWT access tokens in read-only mode to identify critical claims such as scope, aud, iss, and roles.
 - *Outcome:* Created a controlled baseline in Burp Repeater to evaluate whether the API actively enforces the claims identified within the token.
