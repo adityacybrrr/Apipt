@@ -1,4 +1,4 @@
-# Day 9 — GraphQL Security: Authorization Integrity & Resource Management
+# Day 09 — GraphQL Security: Authorization Integrity & Resource Management
 
 ## 1. Assessment of Object-Level Authorization
 - *Actions:* Conducted a security review of GraphQL resolver logic by mutating unique identifiers within the schema.
