@@ -1,4 +1,4 @@
-# Day 6 — API Assessment: JWT Structural Analysis
+# Day 06 — API Assessment: JWT Structural Analysis
 
 ## 1. Token Anatomy & Encoding Review
 - *Actions:* Conducted a structural audit of the JSON Web Token (JWT) standard, focusing on header, payload, and signature segments.
