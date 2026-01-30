@@ -1,4 +1,4 @@
-# Day 13 — OAuth 2.0: Redirect URI Misconfigurations & Testing
+# Day 14 — OAuth 2.0: Redirect URI Misconfigurations & Testing
 
 ## 1. Trust Model & Misconfiguration Patterns
 - *Actions:* Analyzed how insecure Redirect URI handling allows for token interception.
