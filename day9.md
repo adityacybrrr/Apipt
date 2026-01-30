@@ -1,34 +1,26 @@
-# Day 9 — Practical Burp Suite Core Mastery
+# Day 9 — GraphQL Security: Authorization Integrity & Resource Management
 
-## 1. Proxy & History Audit
-- *Actions:* Monitored live API traffic flowing through the Burp Proxy.
-- *Actions:* Filtered HTTP History to identify /api/v1 endpoints and undocumented routes.
-- *Outcome:* Gained full visibility into the API's functional map and established baseline application behavior.
-
----
-
-## 2. Manual Replay (Repeater)
-- *Actions:* Captured and replayed POST and GET requests using Repeater.
-- *Actions:* Modified headers and JSON bodies directly without re-triggering the client UI.
-- *Outcome:* Bypassed client-side logic to interact directly with the API backend for precise security testing.
+## 1. Assessment of Object-Level Authorization
+- *Actions:* Conducted a security review of GraphQL resolver logic by mutating unique identifiers within the schema.
+- *Actions:* Tested data-siloing enforcement between different user accounts.
+- *Outcome:* Identified critical authorization failures enabling unauthorized cross-tenant data access.
 
 ---
 
-## 3. Vulnerability Probing Experiments
-- *Actions:* Performed path mutation to test for IDOR (e.g., /posts/1 → /posts/2).
-- *Actions:* Injected custom headers like X-Test: burp to check server-side metadata processing.
-- *Actions:* Tampered with JSON body parameters to probe for Mass Assignment and privilege escalation.
-- *Outcome:* Built hands-on proficiency with the most common manual API attack techniques.
+## 2. Granular Data Exposure Audit
+- *Actions:* Targeted field-level authorization to detect unauthorized access to privileged metadata.
+- *Actions:* Verified whether the backend properly redacts sensitive fields based on requester context.
+- *Outcome:* Confirmed missing controls preventing retrieval of administrative attributes by unauthorized users.
 
 ---
 
-## 4. Comparative Analysis: Intercept vs. Repeater
-- *Actions:* Defined Intercept as the tool for real-time traffic capture and inspection.
-- *Actions:* Defined Repeater as the primary tool for iterative exploitation and clean testing.
-- *Outcome:* Clarified the distinct roles of observation versus controlled manipulation in the Burp workflow.
+## 3. Query Complexity & Availability Analysis
+- *Actions:* Evaluated API resilience against complex, resource-intensive GraphQL queries.
+- *Actions:* Checked for query-cost analysis and depth-limiting middleware implementation.
+- *Outcome:* Found vulnerability to Resource Exhaustion Attacks due to unconstrained query nesting.
 
 ---
 
 ## Summary
-- *Actions:* Focused on manual manipulation of API requests from interception through analysis.
-- *Outcome:* Established a professional pentesting workflow capable of identifying security flaws through systematic traffic modification and response analysis.
+- *Actions:* Performed comprehensive authorization and availability audit of GraphQL implementation.
+- *Outcome:* Recommended object-level checks and query-cost limiting to address data exposure and DoS risks.
