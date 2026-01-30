@@ -1,4 +1,4 @@
-# Day 1 — Introduction to APIs & Initial Python Script
+# Day 01 — Introduction to APIs & Initial Python Script
 
 ## ✓ Key Concepts Mastered
 - API fundamentals and endpoint structure
